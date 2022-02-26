@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^16.0.0",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "express.js": "^1.0.0",
+    "handlebars": "^4.7.7",
+    "node.js": "^0.0.1-security",
+    "sequelize": "^6.17.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node seeds/index.jsx"
+  },
+  "name": "bktechblog",
+  "description": "Wordpress-style Tech Blog that allows authenticated users to post and comment on tech-related information",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradkuhne/BKTechBlog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradkuhne/BKTechBlog/issues"
+  },
+  "homepage": "https://github.com/bradkuhne/BKTechBlog#readme"
+}
