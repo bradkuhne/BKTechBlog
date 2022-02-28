@@ -1,12 +1,54 @@
 # BKTechBlog
 Wordpress-style Tech Blog that allows authenticated users to post and comment on tech-related information
 
-GitHub Link:
+GitHub Repo Link: https://github.com/bradkuhne/BKTechBlog
 Heroku Link:
 
-ADD PROFESSIONAL README HERE
 
-a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. You’ll build this site completely from scratch and deploy it to Heroku. Your app will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+## Description
+  
+ BKTechBlog is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. You’ll build this site completely from scratch and deploy it to Heroku. Your app will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+
+   
+## License
+  
+ [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+  
+ The Unlicense is a template for disclaiming copyright monopoly interest in software you've written; in other words, it is a template for dedicating your software to the public domain. It combines a copyright waiver patterned after the very successful public domain SQLite project with the no-warranty statement from the widely-used MIT/X11 license.
+  
+## Table of Contents
+  
+* [Installation](#Installation)
+  
+* [Usage](#Usage)
+  
+* [Contributions](#Contributions)
+  
+* [Tests](#Tests)
+  
+* [Questions](#Questions)
+  
+## Installation
+  
+ To install the BKTechBlog application you need to have Express, Sequelize and mysql2 installed.  After that, just start the application from the command prompt using NPM Start.  To initialize this application files can be seeded by running db.sql, schema.sql and seeds/index.js in sequential order.  To start the application enter npm start from the command prompt.  There is no front end to this application.
+  
+## Usage
+  
+ The BKTechBlog application could be used by anyone who wants to provide a simple blog for registered users.
+  
+## Contributions
+  
+ This project was solely developed by Brad Kuhne.
+  
+## Test Instructions
+  
+ This project was not developed with Express.  To test it, run index.js and compare results to expected results.
+  
+## Questions
+  
+ https://github.com/bradkuhne  Email: bjkuhne@aol.com
+
+BKTechBlog is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. You’ll build this site completely from scratch and deploy it to Heroku. Your app will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
 User Story
 AS A developer who writes about tech
