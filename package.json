@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "test": "node seeds/index.jsx"
+    "seed": "node seeds/index.js"
   },
   "name": "bktechblog",
   "description": "Wordpress-style Tech Blog that allows authenticated users to post and comment on tech-related information",
