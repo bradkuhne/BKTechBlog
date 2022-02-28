@@ -1,8 +1,9 @@
 # BKTechBlog
 Wordpress-style Tech Blog that allows authenticated users to post and comment on tech-related information
 
+Deployed Appliction (Heroku) Link:
 GitHub Repo Link: https://github.com/bradkuhne/BKTechBlog
-Heroku Link:
+
 
 
 ## Description
