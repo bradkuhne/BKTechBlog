@@ -11,18 +11,18 @@
 <body>
   <div class="wrapper">
     <header>
-      <h1>
-        <a href="/">BK Tech Blog</a>
-      </h1>
       <nav>
         {{#if loggedIn}}
+        <a href="/">Home</a>
         <a href="/dashboard">Dashboard</a>
         <button id="logout" class="btn-no-style">Logout</button>
         {{else}}
+        <a href="/">Home</a>
         <a href="/login">Login</a>
         {{/if}}
       </nav>
     </header>
+    <a class="bktech" href="/">BK Tech Blog</a>
     <main>
       {{{ body }}}
     </main>
